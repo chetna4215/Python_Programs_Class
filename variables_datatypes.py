@@ -30,11 +30,11 @@ my_list = [
     ['Chetna', first_str, first_none]
 ]
 
-print(my_list)
-print(my_list[::])
-print(my_list[::-1])
-print(my_list[11::-1])
-print(my_list[0:5])
+print(my_list) # print all list
+print(my_list[::]) # print full list
+print(my_list[::-1]) # for printing reverse list
+print(my_list[11::-1]) # other way of printing reverse
+print(my_list[0:5]) # printing list till index 5
 
 list_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
