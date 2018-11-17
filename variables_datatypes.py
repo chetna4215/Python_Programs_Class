@@ -43,6 +43,10 @@ print(list_numbers[1:4:])
 print('Odd Numbers are : ',  list_numbers[0:9:2])
 print('Even Numbers are : ', list_numbers[1:9:2])
 
+list_numbers.pop(0);
+
+print(list_numbers)
+
 my_dictionary = {
     'Name' : 'Chetna',
     'Surname':'Mudgale',
